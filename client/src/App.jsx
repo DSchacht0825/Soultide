@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './styles/global.css';
 
 function App() {
@@ -16,11 +17,7 @@ function App() {
         <Services />
         <Contact />
       </main>
-      <footer className="footer">
-        <div className="container">
-          <p>&copy; 2025 Soultide Therapy. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
