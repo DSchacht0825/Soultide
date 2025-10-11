@@ -7,12 +7,12 @@ const About = () => {
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>Welcome to Soultide Therapy</h2>
+            <h2>Welcome to Soul Tide Therapy</h2>
             <p className="about-intro">
               A safe, supportive space where healing begins and personal growth flourishes.
             </p>
             <p>
-              At Soultide Therapy, we believe that everyone deserves compassionate,
+              At Soul Tide Therapy, we believe that everyone deserves compassionate,
               evidence-based care tailored to their unique needs. Our approach combines
               modern therapeutic techniques with genuine human connection to help you
               navigate life's challenges.

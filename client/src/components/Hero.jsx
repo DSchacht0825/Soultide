@@ -14,7 +14,7 @@ const Hero = () => {
     <>
       <section id="hero" className="hero">
         <div className="hero-image-container">
-          <img src={heroImage} alt="Soultide Therapy" className="hero-image" />
+          <img src={heroImage} alt="Soul Tide Therapy" className="hero-image" />
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content">

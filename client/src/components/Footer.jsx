@@ -42,12 +42,12 @@ const Footer = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Soultide Therapy Location"
+              title="Soul Tide Therapy Location"
             ></iframe>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 Soultide Therapy. All rights reserved.</p>
+          <p>&copy; 2025 Soul Tide Therapy. All rights reserved.</p>
         </div>
       </div>
     </footer>

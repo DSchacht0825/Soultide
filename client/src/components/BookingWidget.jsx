@@ -22,8 +22,8 @@ const BookingWidget = ({ isOpen, onClose }) => {
   }, [isOpen, onClose]);
 
   const handleProceedToBooking = () => {
-    window.open('https://ashley-sellers.clientsecure.me', '_blank');
-    onClose();
+    // Redirect to Simple Practice in the same window
+    window.location.href = 'https://ashley-sellers.clientsecure.me';
   };
 
   if (!isOpen) return null;
@@ -51,7 +51,7 @@ const BookingWidget = ({ isOpen, onClose }) => {
                 <line x1="3" y1="10" x2="21" y2="10"></line>
               </svg>
             </div>
-            <h3>You'll be redirected to our secure booking system</h3>
+            <h3>Ready to book your appointment?</h3>
             <p>
               Our booking system is powered by Simple Practice, a secure HIPAA-compliant platform.
               You'll be able to:
