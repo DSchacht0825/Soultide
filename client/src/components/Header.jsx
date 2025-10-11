@@ -27,7 +27,6 @@ const Header = () => {
           <div className="header-content">
             <div className="logo-container">
               <img src={logo} alt="Soultide Therapy" className="logo" />
-              <span className="logo-text">Soultide Therapy</span>
             </div>
 
             <button
