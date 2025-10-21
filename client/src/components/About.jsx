@@ -1,39 +1,47 @@
 import React from 'react';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 import './About.css';
 
 const About = () => {
+  const headingRef = useScrollAnimation('slide-in-left');
+  const introRef = useScrollAnimation('slide-in-right');
+  const quoteRef = useScrollAnimation('scale-in');
+
   return (
     <section id="about" className="about">
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>Welcome to Soul Tide Therapy</h2>
-            <p className="about-intro">
-              A safe, supportive space where healing begins and personal growth flourishes.
+            <h2 ref={headingRef}>Our Vision & Mission</h2>
+            <p className="about-intro" ref={introRef}>
+              Bridging compassion and clinical excellence to integrate behavioral health into every stage of care.
             </p>
             <p>
-              At Soul Tide Therapy, we believe that everyone deserves compassionate,
-              evidence-based care tailored to their unique needs. Our approach combines
-              modern therapeutic techniques with genuine human connection to help you
-              navigate life's challenges.
+              Soul Tide Therapy was founded with a mission to bridge the gap between traditional
+              psychotherapy and integrated healthcare systems. We believe healing is not simply
+              the absence of illness, but the presence of connection, dignity, and purpose.
             </p>
             <p>
-              Whether you're facing anxiety, depression, relationship issues, or simply
-              seeking personal growth, we're here to support you on your journey toward
-              wellness and self-discovery.
+              Our vision is to transform how behavioral health is viewed and delivered — making
+              emotional wellness a cornerstone of every care plan. We provide care that is both
+              compassionate and structured, creating a space where empathy, accountability, and
+              growth coexist to help individuals rediscover resilience and balance.
             </p>
+            <div className="about-quote" ref={quoteRef}>
+              <p>"Healing requires both empathy and structure — it's about being seen, supported, and understood."</p>
+            </div>
             <div className="about-values">
-              <div className="value-item">
-                <h3>Compassionate Care</h3>
-                <p>Every client is treated with empathy, respect, and understanding.</p>
+              <div className="value-item fade-in-up stagger-1">
+                <h3>Compassionate & Structured</h3>
+                <p>We combine empathy with evidence-based approaches to create meaningful therapeutic outcomes.</p>
               </div>
-              <div className="value-item">
-                <h3>Evidence-Based</h3>
-                <p>We use proven therapeutic methods backed by research and clinical experience.</p>
+              <div className="value-item fade-in-up stagger-2">
+                <h3>Integrated Care</h3>
+                <p>Behavioral health support seamlessly woven into medical and post-acute care systems.</p>
               </div>
-              <div className="value-item">
+              <div className="value-item fade-in-up stagger-3">
                 <h3>Client-Centered</h3>
-                <p>Your goals, values, and needs guide every step of your therapeutic journey.</p>
+                <p>Meeting clients where they are in their journey, with individualized care plans designed for their unique needs.</p>
               </div>
             </div>
           </div>

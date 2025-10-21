@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="container">
             <h1 className="hero-title">Find Your Path to Healing</h1>
             <p className="hero-subtitle">
-              Compassionate, professional therapy to help you navigate life's challenges
+              Integrating behavioral health into every stage of care with compassion and clinical excellence
             </p>
             <div className="hero-buttons">
               <button className="btn btn-primary" onClick={handleBooking}>

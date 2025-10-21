@@ -44,6 +44,7 @@
   text-align: center;
   color: var(--white);
   padding: 0 var(--spacing-md);
+  animation: fadeIn 1s ease-out;
 }
 
 .hero-title {
