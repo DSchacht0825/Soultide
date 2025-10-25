@@ -43,7 +43,8 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
 
 "Healing requires both empathy and structure â€” it's about being seen, supported, and understood."`,
       image: "/images/team/ashley.jpg",
-      credentials: "APCC (CA #20871)"
+      credentials: "APCC (CA #20871)",
+      supervisor: "Supervised by Jessica Anderson, LCSW 61295"
     },
     {
       id: 2,
