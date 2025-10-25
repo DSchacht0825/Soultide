@@ -56,19 +56,20 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
     },
     {
       id: 3,
-      name: "Dr. Emily Chen",
-      title: "Psychologist & Family Therapist",
-      bio: "Dr. Chen specializes in family systems therapy and adolescent mental health. She is dedicated to helping families strengthen their connections and navigate life transitions together.",
-      image: "/images/team/emily-chen.jpg",
-      credentials: "PsyD, Licensed Psychologist"
-    },
-    {
-      id: 4,
       name: "Michael Thompson, MA",
       title: "Licensed Marriage & Family Therapist",
       bio: "Michael works with couples and individuals to build healthier relationships and overcome communication barriers. His approach combines attachment theory with practical, solution-focused strategies.",
       image: "/images/team/michael-thompson.jpg",
       credentials: "LMFT, MA"
+    },
+    {
+      id: 4,
+      name: "Mayra E Quezada",
+      title: "Associate Marriage and Family Therapist",
+      bio: "Mayra is an Associate Marriage and Family Therapist and Associate Professional Clinical Counselor. She earned her Master's degree in Clinical Psychology from Pepperdine University and her Bachelor's degree in Political Science with a minor in Psychology from Boston University. Born and raised in Southern California, she is bilingual in English and Spanish. Her journey in the mental health field began while volunteering at a women's resource center, where she discovered her passion for working with individuals one-on-one. This experience inspired her to pursue a career as a therapist, with the goal of supporting individuals through life's transitions and challenges. Mayra utilizes a client-centered approach, focusing on creating a safe, supportive, and collaborative space that fosters healing, growth, and self-discovery. She is dedicated to tailoring her approach and developing individualized treatment plans that reflect each client's unique strengths, needs, and goals. She has experience and training in trauma-informed care and suicide prevention. Committed to ongoing professional development, Mayra continues to engage in advanced trainings and certifications to remain current with research-based therapeutic practices.",
+      image: "/images/team/myra.jpg",
+      credentials: "AMFT 153788, APCC 18914",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     }
   ];
 
