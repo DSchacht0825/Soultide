@@ -57,11 +57,11 @@ Ashley's vision is to transform how behavioral health is viewed and delivered �
     },
     {
       id: 3,
-      name: "Michael Thompson, MA",
-      title: "Licensed Marriage & Family Therapist",
-      bio: "Michael works with couples and individuals to build healthier relationships and overcome communication barriers. His approach combines attachment theory with practical, solution-focused strategies.",
-      image: "/images/team/michael-thompson.jpg",
-      credentials: "LMFT, MA"
+      name: "Jessica Anderson, LCSW",
+      title: "Licensed Clinical Social Worker",
+      bio: "Hello, I'm Jessica Anderson, a Licensed Clinical Social Worker with a Master's Degree in Child Development from Sarah Lawrence College and a Master's Degree in Clinical Social Work from New York University. Since 2004, I've had the privilege of working in many different settings—community-based organizations, hospitals supporting children and adults, and now private practice. These experiences have given me the opportunity to work with people from all walks of life, each facing unique challenges and strengths.\n\nIn my practice, I approach every individual with curiosity, empathy, and unconditional positive regard. I believe we all have an innate ability to heal, grow, and create change. Sometimes, though, life's stressors—whether loss, trauma, transitions, or biological factors—can make that feel out of reach. My role is to provide support and guidance as you navigate those moments, helping you reconnect with your resilience and sense of self.\n\nTherapy, to me, is a space for exploration and growth—a place to make sense of your experiences and learn new ways of being. I understand that being human can be complicated: we're constantly figuring out how to live in a world that's both beautiful and unpredictable, how to love deeply, face pain, and keep moving forward.\n\nI work with children, adults, individuals, and couples. My areas of focus include depression, anxiety, trauma, grief and loss, as well as supporting those in the medical field, military personnel, and individuals or couples navigating the perinatal and postpartum experience.",
+      image: "/images/team/Jessica.jpg",
+      credentials: "LCSW"
     },
     {
       id: 4,
