@@ -6,11 +6,13 @@ import Team from './components/Team';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SchemaMarkup from './components/SchemaMarkup';
 import './styles/global.css';
 
 function App() {
   return (
     <div className="app">
+      <SchemaMarkup />
       <Header />
       <main>
         <Hero />

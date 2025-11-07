@@ -19,6 +19,7 @@ const Team = () => {
       id: 1,
       name: "Ashley Sellers",
       title: "Founder & Chief Financial Officer",
+      altText: "Ashley Sellers, APCC - Licensed Associate Professional Clinical Counselor in Carlsbad",
       bio: `Dedicated to bridging compassion and clinical excellence, Ashley leads Soul Tide Therapy with a vision to integrate behavioral health into every stage of care.
 
 Background & Education
@@ -50,6 +51,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
       id: 2,
       name: "Cameron Marrs",
       title: "Associate Marriage and Family Therapist",
+      altText: "Cameron Marrs, AMFT - Associate Marriage and Family Therapist in Carlsbad",
       bio: "Hello, my name is Cameron. I'm an Associate Marriage and Family Therapist with a Master's in Clinical Psychology from Pepperdine University. I'm passionate about creating a supportive, welcoming space where people feel safe to be themselves and explore whatever they may be going through. Before becoming a licensed associate therapist, I gained valuable experience as a student therapist, providing both talk therapy and neurofeedback, which enriched my ability to approach treatment with versatility and depth. I believe healing takes root in relationships where we feel safe, seen, heard, and genuinely understood. My approach to therapy is warm, collaborative, and grounded in empathy. I'm here to walk alongside you as we navigate life's challenges together, whether you're feeling stuck, overwhelmed, disconnected, hoping to achieve a goal, or simply looking to better understand yourself. In my clinical work, I've supported individuals ranging from children to adults with concerns such as anxiety, depression, grief, relationship issues, identity exploration, and life transitions. I tailor therapy to each person's unique needs and pace, always working to build a relationship based on trust, respect, and care. Sometimes, taking the first step toward therapy can feel overwhelming, but it can also be the beginning of meaningful change. If you are thinking about starting this journey, know that you are not alone. I am here to support you in moving toward greater clarity, connection, and healing whenever you are ready.",
       image: "/images/team/cameron.jpg",
       credentials: "M.A., AMFT #155545",
@@ -59,6 +61,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
       id: 3,
       name: "Jessica Anderson, LCSW",
       title: "Licensed Clinical Social Worker",
+      altText: "Jessica Anderson, LCSW - Licensed Clinical Social Worker in Carlsbad and San Diego",
       bio: "Hello, I'm Jessica Anderson, a Licensed Clinical Social Worker with a Master's Degree in Child Development from Sarah Lawrence College and a Master's Degree in Clinical Social Work from New York University. Since 2004, I've had the privilege of working in many different settingsâ€”community-based organizations, hospitals supporting children and adults, and now private practice. These experiences have given me the opportunity to work with people from all walks of life, each facing unique challenges and strengths.\n\nIn my practice, I approach every individual with curiosity, empathy, and unconditional positive regard. I believe we all have an innate ability to heal, grow, and create change. Sometimes, though, life's stressorsâ€”whether loss, trauma, transitions, or biological factorsâ€”can make that feel out of reach. My role is to provide support and guidance as you navigate those moments, helping you reconnect with your resilience and sense of self.\n\nTherapy, to me, is a space for exploration and growthâ€”a place to make sense of your experiences and learn new ways of being. I understand that being human can be complicated: we're constantly figuring out how to live in a world that's both beautiful and unpredictable, how to love deeply, face pain, and keep moving forward.\n\nI work with children, adults, individuals, and couples. My areas of focus include depression, anxiety, trauma, grief and loss, as well as supporting those in the medical field, military personnel, and individuals or couples navigating the perinatal and postpartum experience.",
       image: "/images/team/Jessica.jpg",
       credentials: "LCSW"
@@ -67,6 +70,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
       id: 4,
       name: "Mayra E Quezada",
       title: "Associate Marriage and Family Therapist",
+      altText: "Mayra E Quezada, AMFT, APCC - Bilingual Therapist in Carlsbad (English/Spanish)",
       bio: "Mayra is an Associate Marriage and Family Therapist and Associate Professional Clinical Counselor. She earned her Master's degree in Clinical Psychology from Pepperdine University and her Bachelor's degree in Political Science with a minor in Psychology from Boston University. Born and raised in Southern California, she is bilingual in English and Spanish. Her journey in the mental health field began while volunteering at a women's resource center, where she discovered her passion for working with individuals one-on-one. This experience inspired her to pursue a career as a therapist, with the goal of supporting individuals through life's transitions and challenges. Mayra utilizes a client-centered approach, focusing on creating a safe, supportive, and collaborative space that fosters healing, growth, and self-discovery. She is dedicated to tailoring her approach and developing individualized treatment plans that reflect each client's unique strengths, needs, and goals. She has experience and training in trauma-informed care and suicide prevention. Committed to ongoing professional development, Mayra continues to engage in advanced trainings and certifications to remain current with research-based therapeutic practices.",
       image: "/images/team/myra.jpg",
       credentials: "AMFT 153788, APCC 18914",
@@ -91,7 +95,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
                 <div className="member-image-wrapper">
                   <img
                     src={member.image}
-                    alt={member.name}
+                    alt={member.altText || member.name}
                     className="member-image"
                     onError={(e) => {
                       e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect width="200" height="200" fill="%232c5f6f"/%3E%3Ctext x="50%25" y="50%25" font-size="60" fill="%23ffffff" text-anchor="middle" dy=".3em"%3E' + member.name.split(' ').map(n => n[0]).join('') + '%3C/text%3E%3C/svg%3E';
@@ -130,7 +134,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
               <div className="modal-image-wrapper">
                 <img
                   src={selectedMember.image}
-                  alt={selectedMember.name}
+                  alt={selectedMember.altText || selectedMember.name}
                   className="modal-image"
                   onError={(e) => {
                     e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect width="200" height="200" fill="%232c5f6f"/%3E%3Ctext x="50%25" y="50%25" font-size="60" fill="%23ffffff" text-anchor="middle" dy=".3em"%3E' + selectedMember.name.split(' ').map(n => n[0]).join('') + '%3C/text%3E%3C/svg%3E';
