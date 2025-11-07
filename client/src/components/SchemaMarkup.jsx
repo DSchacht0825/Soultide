@@ -82,7 +82,8 @@ const SchemaMarkup = () => {
         ]
       },
       "sameAs": [
-        "https://www.instagram.com/soultidetherapy/"
+        "https://www.instagram.com/soultidetherapy/",
+        "https://www.linkedin.com/in/ashley-sellers-271656121/"
       ]
     };
 
@@ -91,19 +92,53 @@ const SchemaMarkup = () => {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Soul Tide Therapy",
-      "description": "Licensed therapists providing compassionate behavioral health services in Carlsbad and San Diego. Specializing in individual therapy, couples counseling, family therapy, and telehealth services.",
+      "description": "Soul Tide Therapy is a premier mental health practice in Carlsbad and San Diego County, offering evidence-based psychotherapy with licensed clinical social workers (LCSW), licensed marriage and family therapists (LMFT), and supervised associates (APCC, AMFT). We specialize in treating anxiety disorders, depression, trauma and PTSD, relationship challenges, grief and loss, life transitions, and family dynamics. Our comprehensive services include in-person therapy at our Carlsbad office, HIPAA-compliant telehealth sessions throughout California, facility-based behavioral health programs, and outpatient clinical services for clients of all ages. We accept insurance and offer flexible scheduling including evening and weekend appointments.",
       "serviceType": [
         "Mental Health Therapy",
         "Behavioral Health Services",
         "Individual Counseling",
         "Couples Therapy",
         "Family Therapy",
-        "Telehealth Therapy"
+        "Telehealth Therapy",
+        "Anxiety Treatment",
+        "Depression Counseling",
+        "Trauma Therapy",
+        "PTSD Treatment",
+        "Grief Counseling",
+        "Life Transition Support",
+        "Relationship Counseling"
       ],
       "provider": {
         "@type": "MedicalBusiness",
         "name": "Soul Tide Therapy"
-      }
+      },
+      "areaServed": [
+        "Carlsbad, CA",
+        "San Diego, CA",
+        "San Diego County, CA",
+        "California"
+      ],
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "In-Person Therapy",
+          "serviceLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3257 Camino De Los Coches",
+              "addressLocality": "Carlsbad",
+              "addressRegion": "CA",
+              "postalCode": "92009"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "Telehealth Therapy",
+          "availableLanguage": "English"
+        }
+      ]
     };
 
     // FAQ Schema
