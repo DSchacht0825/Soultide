@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://soultidetherapy.com/</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://soultidetherapy.com/images/team/ashley.jpg</image:loc>
+      <image:title>Ashley Sellers, APCC - Licensed Therapist in Carlsbad</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://soultidetherapy.com/images/team/cameron.jpg</image:loc>
+      <image:title>Cameron Marrs, AMFT - Associate Marriage and Family Therapist</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://soultidetherapy.com/images/team/Jessica.jpg</image:loc>
+      <image:title>Jessica Anderson, LCSW - Licensed Clinical Social Worker</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://soultidetherapy.com/images/team/myra.jpg</image:loc>
+      <image:title>Mayra E Quezada, AMFT, APCC - Bilingual Therapist</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://soultidetherapy.com/#about</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://soultidetherapy.com/#services</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Team Section -->
+  <url>
+    <loc>https://soultidetherapy.com/#team</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://soultidetherapy.com/#contact</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>

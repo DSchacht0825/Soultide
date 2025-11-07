@@ -1,0 +1,11 @@
+# Soul Tide Therapy - Robots.txt
+# https://soultidetherapy.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://soultidetherapy.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
