@@ -9,6 +9,7 @@ const Team = () => {
   const member2Ref = useScrollAnimation('slide-in-right', 0.1);
   const member3Ref = useScrollAnimation('slide-in-left', 0.1);
   const member4Ref = useScrollAnimation('slide-in-right', 0.1);
+  const member5Ref = useScrollAnimation('slide-in-left', 0.1);
 
   const truncateBio = (bio, maxLength = 200) => {
     if (bio.length <= maxLength) return bio;
@@ -69,11 +70,27 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
     {
       id: 4,
       name: "Mayra E Quezada",
-      title: "Associate Marriage and Family Therapist",
+      title: (
+        <>
+          Dual Licensed
+          <br />
+          Associate Marriage and Family Therapist
+        </>
+      ),
       altText: "Mayra E Quezada, AMFT, APCC - Bilingual Therapist in Carlsbad (English/Spanish)",
       bio: "Mayra is an Associate Marriage and Family Therapist and Associate Professional Clinical Counselor. She earned her Master's degree in Clinical Psychology from Pepperdine University and her Bachelor's degree in Political Science with a minor in Psychology from Boston University. Born and raised in Southern California, she is bilingual in English and Spanish. Her journey in the mental health field began while volunteering at a women's resource center, where she discovered her passion for working with individuals one-on-one. This experience inspired her to pursue a career as a therapist, with the goal of supporting individuals through life's transitions and challenges. Mayra utilizes a client-centered approach, focusing on creating a safe, supportive, and collaborative space that fosters healing, growth, and self-discovery. She is dedicated to tailoring her approach and developing individualized treatment plans that reflect each client's unique strengths, needs, and goals. She has experience and training in trauma-informed care and suicide prevention. Committed to ongoing professional development, Mayra continues to engage in advanced trainings and certifications to remain current with research-based therapeutic practices.",
       image: "/images/team/myra.jpg",
       credentials: "AMFT 153788, APCC 18914",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 5,
+      name: "Katrina Biggs",
+      title: "Associate Professional Clinical Counselor",
+      altText: "Katrina Biggs, M.A., APCC - Associate Professional Clinical Counselor in Carlsbad",
+      bio: "Katrina Biggs is a skilled and compassionate clinician with a Master's degree in Clinical Psychology from Pepperdine University and a Bachelor's degree in Psychology with a minor in Applied Counseling Sciences from Arizona State University. Has experience in providing services of Neurofeedback and integrates this specialized approach to support clients in achieving greater emotional regulation and cognitive balance.\n\nKatrina's clinical experience includes working with individuals navigating trauma, crisis, suicidal ideation, personality disorders, grief, and recovery from domestic violence. She is committed to providing trauma-informed, evidence-based care that promotes safety, trust, and long-term healing.\n\nKnown for her open, honest, and collaborative therapeutic style, Katrina fosters an environment in which clients feel respected, empowered, and supported in their personal growth. She maintains an ongoing commitment to professional excellence through continuing education and the application of current best practices in the field of mental health.",
+      image: "/images/team/Katrina.png",
+      credentials: "M.A., APCC #20523",
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     }
   ];
@@ -87,9 +104,41 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
             Our compassionate team of licensed therapists is here to support you on your journey to wellness.
           </p>
         </div>
+        {/* Founder - Ashley */}
+        <div className="team-founder-section">
+          <div key={teamMembers[0].id} ref={member1Ref} className="team-member team-founder">
+            <div className="member-image-wrapper">
+              <img
+                src={teamMembers[0].image}
+                alt={teamMembers[0].altText || teamMembers[0].name}
+                className="member-image"
+                onError={(e) => {
+                  e.target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="200" height="200"%3E%3Crect width="200" height="200" fill="%232c5f6f"/%3E%3Ctext x="50%25" y="50%25" font-size="60" fill="%23ffffff" text-anchor="middle" dy=".3em"%3E' + teamMembers[0].name.split(' ').map(n => n[0]).join('') + '%3C/text%3E%3C/svg%3E';
+                }}
+              />
+            </div>
+            <div className="member-info">
+              <h3>{teamMembers[0].name}</h3>
+              <p className="member-title">{teamMembers[0].title}</p>
+              <p className="member-credentials">{teamMembers[0].credentials}</p>
+              {teamMembers[0].supervisor && (
+                <p className="member-supervisor">{teamMembers[0].supervisor}</p>
+              )}
+              <p className="member-bio">{truncateBio(teamMembers[0].bio)}</p>
+              <button
+                className="btn-read-more"
+                onClick={() => setSelectedMember(teamMembers[0])}
+              >
+                Read Full Bio
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Other Team Members */}
         <div className="team-grid">
-          {teamMembers.map((member, index) => {
-            const memberRefs = [member1Ref, member2Ref, member3Ref, member4Ref];
+          {teamMembers.slice(1).map((member, index) => {
+            const memberRefs = [member2Ref, member3Ref, member4Ref, member5Ref];
             return (
               <div key={member.id} ref={memberRefs[index]} className="team-member">
                 <div className="member-image-wrapper">

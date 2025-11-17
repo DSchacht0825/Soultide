@@ -28,7 +28,7 @@ const Footer = () => {
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
                 <a href="https://maps.app.goo.gl/FEVbS9Dj3LJ6sxMi9" target="_blank" rel="noopener noreferrer">
-                  View on Google Maps
+                  3257 Camino De Los Coches, Suite 303, Carlsbad, CA 92009
                 </a>
               </div>
               <div className="contact-item">
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
           <div className="footer-map">
             <iframe
-              src="https://www.google.com/maps?q=3257+Camino+De+Los+Coches,Carlsbad,CA+92009&output=embed"
+              src="https://www.google.com/maps?q=3257+Camino+De+Los+Coches+Suite+303,Carlsbad,CA+92009&output=embed"
               width="100%"
               height="250"
               style={{ border: 0 }}

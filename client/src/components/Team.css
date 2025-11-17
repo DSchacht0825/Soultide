@@ -19,6 +19,20 @@
   line-height: 1.6;
 }
 
+.team-founder-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-founder {
+  max-width: 500px;
+  width: 100%;
+}
+
 .team-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -258,6 +272,10 @@
   .team-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
+  }
+
+  .team-founder {
+    max-width: 100%;
   }
 
   .member-image-wrapper {

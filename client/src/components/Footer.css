@@ -39,10 +39,13 @@
   color: rgba(255, 255, 255, 0.95);
   font-size: 1.0625rem;
   transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .contact-item a:hover {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .footer-map {
