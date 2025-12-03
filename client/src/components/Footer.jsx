@@ -76,6 +76,7 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <p>&copy; 2025 Soul Tide Therapy. All rights reserved.</p>
+          <p className="footer-credit">Website by <a href="https://causory.com" target="_blank" rel="noopener noreferrer">Causory</a></p>
         </div>
       </div>
     </footer>
