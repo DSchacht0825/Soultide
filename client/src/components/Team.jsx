@@ -19,7 +19,7 @@ const Team = () => {
     {
       id: 1,
       name: "Ashley Sellers",
-      title: "Founder & Chief Financial Officer",
+      title: "Founder",
       altText: "Ashley Sellers, APCC - Licensed Associate Professional Clinical Counselor in Carlsbad",
       bio: `Dedicated to bridging compassion and clinical excellence, Ashley leads Soul Tide Therapy with a vision to integrate behavioral health into every stage of care.
 
