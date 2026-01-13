@@ -21,7 +21,7 @@
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--spacing-md);
   margin-top: var(--spacing-lg);
   max-width: 1400px;
@@ -78,11 +78,114 @@
   font-size: 1.1rem;
 }
 
+/* EMDR Section */
+.emdr-section {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid rgba(44, 95, 111, 0.1);
+}
+
+.emdr-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.emdr-header h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.emdr-intro {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.emdr-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.emdr-card {
+  background-color: var(--background-light);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  border-top: 4px solid var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.emdr-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(44, 95, 111, 0.15);
+}
+
+.emdr-card h4 {
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+.emdr-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.emdr-helps {
+  background-color: var(--background-light);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.emdr-helps h4 {
+  font-size: 1.375rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+}
+
+.emdr-helps-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-sm);
+  text-align: left;
+}
+
+.emdr-helps-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+}
+
+.emdr-helps-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 /* Responsive */
 @media (max-width: 1200px) {
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 1100px;
+  }
+
+  .emdr-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -98,5 +201,23 @@
 
   .services-intro {
     font-size: 1.125rem;
+  }
+
+  .emdr-section {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+  }
+
+  .emdr-header h3 {
+    font-size: 1.75rem;
+  }
+
+  .emdr-cards {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .emdr-helps-list {
+    grid-template-columns: 1fr;
   }
 }

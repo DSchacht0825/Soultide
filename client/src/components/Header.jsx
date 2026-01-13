@@ -43,6 +43,7 @@ const Header = () => {
               <ul className="nav-list">
                 <li><a onClick={() => scrollToSection('hero')}>Home</a></li>
                 <li><a onClick={() => scrollToSection('about')}>About</a></li>
+                <li><a onClick={() => scrollToSection('careers')}>Careers</a></li>
                 <li><a onClick={() => scrollToSection('services')}>Services</a></li>
                 <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
                 <li className="book-now-item">
