@@ -10,6 +10,7 @@ const Team = () => {
   const member3Ref = useScrollAnimation('slide-in-left', 0.1);
   const member4Ref = useScrollAnimation('slide-in-right', 0.1);
   const member5Ref = useScrollAnimation('slide-in-left', 0.1);
+  const member6Ref = useScrollAnimation('slide-in-right', 0.1);
 
   const truncateBio = (bio, maxLength = 200) => {
     if (bio.length <= maxLength) return bio;
@@ -92,6 +93,16 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
       image: "/images/team/Katrina.png",
       credentials: "M.A., APCC #20523",
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 6,
+      name: "Maren Gregg",
+      title: "Associate Professional Clinical Counselor",
+      altText: "Maren Gregg, APCC - Associate Professional Clinical Counselor in Carlsbad",
+      bio: "Maren is an Associate Professional Clinical Counselor (APCC) in California. She earned her Master's degree in Clinical Counseling from Alliant International University and her Bachelor's degree in Psychology from the University of Alabama. Maren believes therapy is most effective when it is a collaborative and thoughtful process, grounded in compassion and care.\n\nMaren supports adults navigating life transitions, emotional challenges, relationship concerns, and questions around identity or direction. Her approach focuses on helping clients explore their experiences and reflect on their patterns while developing helpful strategies to navigate challenges. Throughout the process, she remains curious about each client's perspective and works to create a safe, supportive space for understanding and growth.\n\nDuring her clinical training, Maren provided individual therapy, facilitated mental health groups, and received training in neurofeedback, which informed her understanding of the mind-body connection. She has experience working in outpatient, residential, and inpatient settings, supporting adults with a range of mental health challenges.\n\nMaren is committed to providing trauma-informed, individualized care that honors each client's unique needs and values. She receives regular clinical supervision and engages in ongoing professional development to ensure her work remains ethical, evidence-based, and thoughtfully tailored.",
+      image: "/images/team/maren.jpg",
+      credentials: "APCC",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     }
   ];
 
@@ -138,7 +149,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
         {/* Other Team Members */}
         <div className="team-grid">
           {teamMembers.slice(1).map((member, index) => {
-            const memberRefs = [member2Ref, member3Ref, member4Ref, member5Ref];
+            const memberRefs = [member2Ref, member3Ref, member4Ref, member5Ref, member6Ref];
             return (
               <div key={member.id} ref={memberRefs[index]} className="team-member">
                 <div className="member-image-wrapper">
