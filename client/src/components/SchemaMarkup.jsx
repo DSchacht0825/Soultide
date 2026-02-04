@@ -10,7 +10,7 @@ const SchemaMarkup = () => {
       "name": "Soul Tide Therapy",
       "image": "https://soultidetherapy.com/images/team/ashley.jpg",
       "url": "https://soultidetherapy.com",
-      "telephone": "+1-858-230-5838",
+      "telephone": "+1-760-893-9151",
       "email": "info@soultidetherapy.com",
       "address": {
         "@type": "PostalAddress",
