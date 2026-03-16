@@ -12,14 +12,24 @@ const SchemaMarkup = () => {
       "url": "https://soultidetherapy.com",
       "telephone": "+1-760-893-9151",
       "email": "info@soultidetherapy.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "3257 Camino De Los Coches",
-        "addressLocality": "Carlsbad",
-        "addressRegion": "CA",
-        "postalCode": "92009",
-        "addressCountry": "US"
-      },
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "3257 Camino De Los Coches",
+          "addressLocality": "Carlsbad",
+          "addressRegion": "CA",
+          "postalCode": "92009",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "925 E Pennsylvania Ave, Suite A",
+          "addressLocality": "Escondido",
+          "addressRegion": "CA",
+          "postalCode": "92025",
+          "addressCountry": "US"
+        }
+      ],
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "33.1581",
@@ -29,6 +39,10 @@ const SchemaMarkup = () => {
         {
           "@type": "City",
           "name": "Carlsbad"
+        },
+        {
+          "@type": "City",
+          "name": "Escondido"
         },
         {
           "@type": "City",
@@ -68,7 +82,7 @@ const SchemaMarkup = () => {
             "itemOffered": {
               "@type": "Service",
               "name": "Outpatient Clinical Services",
-              "description": "Individualized, evidence-based care for clients of all ages"
+              "description": "Individualized, evidence-based care for clients of all ages, including group therapy"
             }
           },
           {
@@ -99,6 +113,7 @@ const SchemaMarkup = () => {
         "Individual Counseling",
         "Couples Therapy",
         "Family Therapy",
+        "Group Therapy",
         "Telehealth Therapy",
         "Anxiety Treatment",
         "Depression Counseling",
@@ -114,6 +129,7 @@ const SchemaMarkup = () => {
       },
       "areaServed": [
         "Carlsbad, CA",
+        "Escondido, CA",
         "San Diego, CA",
         "San Diego County, CA",
         "California"
@@ -130,6 +146,20 @@ const SchemaMarkup = () => {
               "addressLocality": "Carlsbad",
               "addressRegion": "CA",
               "postalCode": "92009"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "In-Person Therapy",
+          "serviceLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "925 E Pennsylvania Ave, Suite A",
+              "addressLocality": "Escondido",
+              "addressRegion": "CA",
+              "postalCode": "92025"
             }
           }
         },
@@ -167,7 +197,7 @@ const SchemaMarkup = () => {
           "name": "Where is Soul Tide Therapy located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Soul Tide Therapy is located at 3257 Camino De Los Coches, Carlsbad, CA 92009. We serve clients throughout Carlsbad and San Diego County."
+            "text": "Soul Tide Therapy has two locations: 3257 Camino De Los Coches, Carlsbad, CA 92009 and 925 E Pennsylvania Ave, Suite A, Escondido, CA 92025. We serve clients throughout Carlsbad, Escondido, and San Diego County."
           }
         },
         {

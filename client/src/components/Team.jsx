@@ -85,23 +85,13 @@ Ashley's vision is to transform how behavioral health is viewed and delivered â€
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     },
     {
-      id: 5,
-      name: "Katrina Biggs",
-      title: "Associate Professional Clinical Counselor",
-      altText: "Katrina Biggs, M.A., APCC - Associate Professional Clinical Counselor in Carlsbad",
-      bio: "Katrina Biggs is a skilled and compassionate clinician with a Master's degree in Clinical Psychology from Pepperdine University and a Bachelor's degree in Psychology with a minor in Applied Counseling Sciences from Arizona State University. Has experience in providing services of Neurofeedback and integrates this specialized approach to support clients in achieving greater emotional regulation and cognitive balance.\n\nKatrina's clinical experience includes working with individuals navigating trauma, crisis, suicidal ideation, personality disorders, grief, and recovery from domestic violence. She is committed to providing trauma-informed, evidence-based care that promotes safety, trust, and long-term healing.\n\nKnown for her open, honest, and collaborative therapeutic style, Katrina fosters an environment in which clients feel respected, empowered, and supported in their personal growth. She maintains an ongoing commitment to professional excellence through continuing education and the application of current best practices in the field of mental health.",
-      image: "/images/team/Katrina.png",
-      credentials: "M.A., APCC #20523",
-      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
-    },
-    {
       id: 6,
       name: "Maren Gregg",
       title: "Associate Professional Clinical Counselor",
       altText: "Maren Gregg, APCC - Associate Professional Clinical Counselor in Carlsbad",
       bio: "Maren is an Associate Professional Clinical Counselor (APCC) in California. She earned her Master's degree in Clinical Counseling from Alliant International University and her Bachelor's degree in Psychology from the University of Alabama. Maren believes therapy is most effective when it is a collaborative and thoughtful process, grounded in compassion and care.\n\nMaren supports adults navigating life transitions, emotional challenges, relationship concerns, and questions around identity or direction. Her approach focuses on helping clients explore their experiences and reflect on their patterns while developing helpful strategies to navigate challenges. Throughout the process, she remains curious about each client's perspective and works to create a safe, supportive space for understanding and growth.\n\nDuring her clinical training, Maren provided individual therapy, facilitated mental health groups, and received training in neurofeedback, which informed her understanding of the mind-body connection. She has experience working in outpatient, residential, and inpatient settings, supporting adults with a range of mental health challenges.\n\nMaren is committed to providing trauma-informed, individualized care that honors each client's unique needs and values. She receives regular clinical supervision and engages in ongoing professional development to ensure her work remains ethical, evidence-based, and thoughtfully tailored.",
       image: "/images/team/maren.jpg",
-      credentials: "APCC",
+      credentials: "APCC #21533",
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     }
   ];

@@ -32,6 +32,15 @@ const Footer = () => {
                 </a>
               </div>
               <div className="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <a href="https://maps.google.com/?q=925+E+Pennsylvania+Ave+Suite+A+Escondido+CA+92025" target="_blank" rel="noopener noreferrer">
+                  925 E Pennsylvania Ave, Suite A, Escondido, CA 92025
+                </a>
+              </div>
+              <div className="contact-item">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>

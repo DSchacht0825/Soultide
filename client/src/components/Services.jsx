@@ -20,7 +20,7 @@ const Services = () => {
     {
       title: 'Outpatient Clinical Services',
       description: 'In partnership with Dr. Jeffrey Raunig in Carlsbad, providing individualized, evidence-based care for clients of all ages seeking emotional balance and personal growth.',
-      features: ['Individual therapy', 'Couples & family therapy', 'Evidence-based approaches', 'All ages welcome']
+      features: ['Individual therapy', 'Couples & family therapy', 'Group therapy', 'Evidence-based approaches', 'All ages welcome']
     },
     {
       title: 'Telehealth Therapy',
