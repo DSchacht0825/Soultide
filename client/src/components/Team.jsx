@@ -11,6 +11,11 @@ const Team = () => {
   const member4Ref = useScrollAnimation('slide-in-right', 0.1);
   const member5Ref = useScrollAnimation('slide-in-left', 0.1);
   const member6Ref = useScrollAnimation('slide-in-right', 0.1);
+  const member7Ref = useScrollAnimation('slide-in-left', 0.1);
+  const member8Ref = useScrollAnimation('slide-in-right', 0.1);
+  const member9Ref = useScrollAnimation('slide-in-left', 0.1);
+  const member10Ref = useScrollAnimation('slide-in-right', 0.1);
+  const member11Ref = useScrollAnimation('slide-in-left', 0.1);
 
   const truncateBio = (bio, maxLength = 200) => {
     if (bio.length <= maxLength) return bio;
@@ -93,6 +98,84 @@ Ashley's vision is to transform how behavioral health is viewed and delivered �
       image: "/images/team/maren.jpg",
       credentials: "APCC #21533",
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 7,
+      name: "Blanca Iniguez Valdivia",
+      title: "Associate Clinical Social Worker",
+      altText: "Blanca Iniguez Valdivia, ASW - Bilingual Associate Clinical Social Worker in Carlsbad (English/Spanish)",
+      bio: `Hello, my name is Blanca, an Associate Clinical Social Worker with a Master's in Social Work from Boston University.
+
+My counseling style is warm, compassionate, and non-judgmental. I strive to meet you where you are, recognizing that you are the expert in your own life. My role is to support you, help you explore what may be getting in the way, and guide you toward living your fullest potential.
+
+I believe therapy should be a safe, supportive space where you can heal, process past experiences, and work toward your goals. I honor your pace and will work collaboratively with you to ensure you feel heard, respected, and understood.
+
+I tailor my approach based on your unique needs and goals. Whether you are looking to build coping skills for anxiety and depression or process past experiences and inner child work, we will find what works best for you.
+
+I have experience working with children, adolescents, and adults addressing trauma, anxiety, depression, intimate partner violence, sexual assault, suicidality, and other mental health concerns. I utilize evidence-based approaches such as Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT (TF-CBT), Dialectical Behavior Therapy (DBT), and Motivational Interviewing (MI). I also emphasize grounding and regulation skills to help calm the mind and body during times of distress.
+
+As a first-generation Latina, I also offer services in Spanish for clients who prefer it. Como Latina de primera generación, también ofrezco servicios en español para quienes lo prefieran.`,
+      image: "/images/team/blanca.jpeg",
+      credentials: "ASW 119060",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 8,
+      name: "Constance Robinson",
+      title: "Associate Marriage and Family Therapist",
+      altText: "Constance Robinson, AMFT - Associate Marriage and Family Therapist in Carlsbad",
+      bio: `My ideal clients are individuals who appear "put together" on the outside — continuing to show up, push forward, and carry their responsibilities — while internally feeling overwhelmed, stuck, or quietly struggling. Beneath that strength is often self-doubt, self-blame, or a sense of disconnection, along with a desire for something to finally feel different.
+
+Clients are drawn to this work because I offer more than just a space to talk. I provide a balance of reflection, compassion, and grounded support that helps shift patterns at a deeper level. Together, we move from self-blame toward understanding, helping you reconnect with yourself in a way that feels both relieving and empowering.
+
+Before becoming a therapist, I worked as an educator, and I am also a mother. These experiences have shaped the way I understand people — especially the pressure of showing up for others while managing your own internal world. I bring a grounded, real-world perspective into the therapy room, supporting you in making sense of what you're carrying while also building practical tools for everyday life.
+
+I take an active, engaged approach in session. I'm not passive — I reflect, guide, and gently challenge when it's needed to support meaningful growth. At the same time, I value authenticity and connection. I love to laugh, and when it feels right, I bring humor into the room — because healing doesn't always have to feel heavy; it can also feel human, relieving, and real.
+
+I approach therapy with a high level of attunement to each client's unique experiences, needs, and environment, creating a space where you feel genuinely seen, supported, and understood. Our work together is about creating meaningful, lasting change — so you don't have to keep holding it all together alone or struggle silently anymore.`,
+      image: "/images/team/constance.jpeg",
+      credentials: "AMFT 160774",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 9,
+      name: "Tria Ismay",
+      title: "Dual Licensed AMFT & APCC",
+      altText: "Tria Ismay, AMFT, APCC - EMDR Therapist in Carlsbad",
+      bio: `Tria is a compassionate EMDR therapist who brings both heart and resilience to her work. She earned her degree from Pepperdine University and was a dedicated student-athlete at Sacramento State, an experience that shaped her strong belief in perseverance, balance, and personal growth.
+
+Tria specializes in Eye Movement Desensitization and Reprocessing (EMDR), helping clients gently and safely reprocess past trauma. She is committed to creating a space where you feel secure, supported, and truly heard—because healing happens best when you don't have to face it alone.
+
+Her approach is collaborative and grounded, meeting you where you are while helping you move toward where you want to be. Tria is passionate about helping her clients not just cope, but truly thrive—so they can step into fuller, more meaningful lives with confidence and clarity.`,
+      image: "/images/team/tria.jpeg",
+      credentials: "AMFT #153291, APCC #18796"
+    },
+    {
+      id: 10,
+      name: "Gity Nematollahi",
+      title: "Associate Marriage and Family Therapist",
+      altText: "Gity Nematollahi, AMFT - Holistic Trauma-Informed Therapist in Carlsbad",
+      bio: `When you feel overwhelmed, stuck, or disconnected and are seeking more clarity, balance, and connection in your life, this is where our work can begin. If you are navigating anxiety, relationship challenges, life transitions, or the impact of past experiences, I offer a warm, compassionate space where you can slow down, feel seen, and better understand yourself. Using a holistic, trauma-informed, and mindful approach, I blend reflection with practical tools to help you reconnect with yourself and move forward in a meaningful way.
+
+I help individuals navigate anxiety, life transitions, relational challenges, and past experiences and trauma. My approach is holistic, client-centered, and mindful. With compassion, curiosity, and a nonjudgmental, safe space, we build insight and emotional awareness to help you move forward with clarity and balance.
+
+As a mother, immigrant, and lifelong learner, I know how life's changes and challenges can feel heavy. I provide a safe, compassionate, and nonjudgmental space where you can reflect, reconnect with your inner wisdom, and take steps forward in a way that feels authentic to you. I invite you to reach out and start your journey today.`,
+      image: "/images/team/gity.jpeg",
+      credentials: "AMFT 161652",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 11,
+      name: "Lizzette Vescera",
+      title: "Licensed Marriage and Family Therapist",
+      altText: "Lizzette Vescera, LMFT - Licensed Marriage and Family Therapist in Carlsbad",
+      bio: `My ideal clients are individuals, couples, and families who feel overwhelmed, stuck, disconnected, or exhausted from carrying so much on their own. Many struggle with anxiety, depression, trauma, grief, relationship issues, parenting stress, postpartum concerns, or difficult childhood experiences. Often they appear high-functioning on the outside but feel overwhelmed and lost inside. I provide a safe, supportive, nonjudgmental space to process experiences, build coping skills, improve communication, strengthen self-esteem, and create lasting change.
+
+I help children, teens, adults, couples, and families with anxiety, depression, trauma, relationships, postpartum concerns, and life transitions. Using Evidence Based practices and practical coping skills, I provide a supportive space to heal, build confidence, improve relationships, and create lasting change.
+
+If you've been carrying so much for so long, you do not have to do it alone. Therapy can help you feel heard, supported, and understood while learning healthier ways to cope, heal, and move forward. You deserve a space where you can slow down, feel safe, and begin creating lasting change.`,
+      image: "/images/team/lizzette.jpeg",
+      credentials: "LMFT 87605"
     }
   ];
 
@@ -139,7 +222,7 @@ Ashley's vision is to transform how behavioral health is viewed and delivered �
         {/* Other Team Members */}
         <div className="team-grid">
           {teamMembers.slice(1).map((member, index) => {
-            const memberRefs = [member2Ref, member3Ref, member4Ref, member5Ref, member6Ref];
+            const memberRefs = [member2Ref, member3Ref, member4Ref, member5Ref, member6Ref, member7Ref, member8Ref, member9Ref, member10Ref, member11Ref];
             return (
               <div key={member.id} ref={memberRefs[index]} className="team-member">
                 <div className="member-image-wrapper">
