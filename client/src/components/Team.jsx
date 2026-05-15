@@ -30,15 +30,18 @@ const Team = () => {
       bio: `Dedicated to bridging compassion and clinical excellence, Ashley leads Soul Tide Therapy with a vision to integrate behavioral health into every stage of care.
 
 Background & Education
+
 A graduate of Pepperdine University, where she earned her Master's in Clinical Psychology with honors, Ashley brings both academic rigor and heart-driven purpose to the field of behavioral health. Her experience spans several years working within Skilled Nursing Facilities (SNFs), Assisted Living Communities (ALFs), and Home Health organizations, where she developed a deep understanding of the emotional, cognitive, and psychosocial challenges faced by older adults and their families.
 
 Professional Experience & Focus
-Before founding Soul Tide Therapy, Ashley worked in diverse care environments, including as a social worker and care coordinator, where she cultivated her passion for integrating mental-health support into medical and post-acute care systems. She also spent several years working with adolescents in residential treatment, helping youth navigate trauma, rebuild self-esteem, and foster emotional regulation.
+
+Before leading Soul Tide Therapy, Ashley worked in diverse care environments, including as a social worker and care coordinator, where she cultivated her passion for integrating mental-health support into medical and post-acute care systems. She also spent several years working with adolescents in residential treatment, helping youth navigate trauma, rebuild self-esteem, and foster emotional regulation.
 
 These experiences shaped Ashley's core belief that effective therapy is both compassionate and structured — a space where empathy, accountability, and growth coexist to help individuals rediscover resilience and balance.
 
 Soul Tide Leadership & Mission
-Through Soul Tide Therapy, Ashley leads with a mission to bridge the gap between traditional psychotherapy and integrated healthcare systems. As Founder, Ashley has built Soul Tide Therapy around three distinct service lines designed to meet clients where they are in their journey of care:
+
+At Soul Tide Therapy, Ashley helps guide a mission centered on bridging the gap between traditional psychotherapy and integrated healthcare systems. The practice is built around three distinct service lines designed to meet clients where they are in their journey of care:
 
 • Facility-Based Behavioral Health — Delivering in-facility psychotherapy that enhances residents' quality of life and proactively reduces rehospitalization rates through early intervention and coordinated care.
 
@@ -47,6 +50,7 @@ Through Soul Tide Therapy, Ashley leads with a mission to bridge the gap between
 • Telehealth Therapy — Offering accessible, HIPAA-compliant virtual care across California, ensuring clients receive consistent, compassionate support wherever they are.
 
 Vision & Philosophy
+
 Ashley's vision is to transform how behavioral health is viewed and delivered — making emotional wellness a cornerstone of every care plan. She believes healing is not simply the absence of illness, but the presence of connection, dignity, and purpose.
 
 "Healing requires both empathy and structure — it's about being seen, supported, and understood."`,
