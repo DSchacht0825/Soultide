@@ -111,20 +111,6 @@ If you've been carrying so much for so long, you do not have to do it alone. The
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     },
     {
-      id: 8,
-      name: "Constance Robinson",
-      title: "Registered Associate Marriage and Family Therapist",
-      altText: "Constance Robinson, AMFT - Registered Associate Marriage and Family Therapist in Carlsbad",
-      bio: `My ideal clients are individuals who appear "put together" on the outside — continuing to show up, push forward, and carry their responsibilities — while internally feeling overwhelmed, stuck, or quietly struggling. Beneath that strength is often self-doubt, self-blame, or a sense of disconnection, along with a desire for something to finally feel different.
-
-Clients are drawn to this work because I offer more than just a space to talk. I provide a balance of reflection, compassion, and grounded support that helps shift patterns at a deeper level. Together, we move from self-blame toward understanding, helping you reconnect with yourself in a way that feels both relieving and empowering.
-
-Before becoming a registered associate therapist, I worked as an educator, and I am also a mother. These experiences have shaped the way I understand people — especially the pressure of showing up for others while managing your own internal world. While under direct supervision, I bring a grounded, real-world perspective into the therapy room, supporting you in making sense of what you're carrying while also building practical tools for everyday life. Under direct supervision, I take an active, engaged approach in session. I'm not passive — I reflect, guide, and gently challenge when it's needed to support meaningful growth. At the same time, I value authenticity and connection. I love to laugh, and when it feels right, I bring humor into the room — because healing doesn't always have to feel heavy; it can also feel human, relieving, and real. While under direct supervision, I approach therapy with a high level of attunement to each client's unique experiences, needs, and environment, creating a space where you feel genuinely seen, supported, and understood. Our work together is about creating meaningful, lasting change — so you don't have to keep holding it all together alone or struggle silently anymore.`,
-      image: "/images/team/constance.jpeg",
-      credentials: "AMFT 160774",
-      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
-    },
-    {
       id: 9,
       name: "Tria Ismay",
       title: (
