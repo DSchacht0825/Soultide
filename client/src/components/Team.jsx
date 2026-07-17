@@ -42,29 +42,6 @@ const Team = () => {
       credentials: "LCSW"
     },
     {
-      id: 11,
-      name: "Lizzette Vescera",
-      title: "Licensed Marriage and Family Therapist",
-      altText: "Lizzette Vescera, LMFT - Licensed Marriage and Family Therapist in Carlsbad",
-      bio: `My ideal clients are individuals, couples, and families who feel overwhelmed, stuck, disconnected, or exhausted from carrying so much on their own. Many struggle with anxiety, depression, trauma, grief, relationship issues, parenting stress, postpartum concerns, or difficult childhood experiences. Often they appear high-functioning on the outside but feel overwhelmed and lost inside. I provide a safe, supportive, nonjudgmental space to process experiences, build coping skills, improve communication, strengthen self-esteem, and create lasting change.
-
-I help children, teens, adults, couples, and families with anxiety, depression, trauma, relationships, postpartum concerns, and life transitions. Using Evidence Based practices and practical coping skills, I provide a supportive space to heal, build confidence, improve relationships, and create lasting change.
-
-If you've been carrying so much for so long, you do not have to do it alone. Therapy can help you feel heard, supported, and understood while learning healthier ways to cope, heal, and move forward. You deserve a space where you can slow down, feel safe, and begin creating lasting change.`,
-      image: "/images/team/lizzette.jpeg",
-      credentials: "LMFT 87605"
-    },
-    {
-      id: 1,
-      name: "Ashley Sellers",
-      title: "Registered Associate Professional Clinical Counselor",
-      altText: "Ashley Sellers, APCC - Registered Associate Professional Clinical Counselor in Carlsbad",
-      bio: `A graduate of Pepperdine University, where she earned her Master's in Clinical Psychology with honors, Ashley brings both academic rigor and heart-driven purpose to the field of behavioral health. Her experience spans several years working within Skilled Nursing Facilities (SNFs), Assisted Living Communities (ALFs), and Home Health organizations, where she developed a deep understanding of the emotional, cognitive, and psychosocial challenges faced by older adults and their families. Ashley has worked in diverse care environments, including as a social worker and care coordinator, where she cultivated her passion for integrating mental-health support into medical and post-acute care systems. She also spent several years working with adolescents in residential treatment, helping youth navigate trauma, rebuild self-esteem, and foster emotional regulation. These experiences shaped Ashley's core belief that effective therapy is both compassionate and structured — a space where empathy, accountability, and growth coexist to help individuals rediscover resilience and balance. She believes healing is not simply the absence of illness, but the presence of connection, dignity, and purpose.`,
-      image: "/images/team/ashley.jpg",
-      credentials: "APCC (CA #20871)",
-      supervisor: "Supervised by Jessica Anderson, LCSW 61295"
-    },
-    {
       id: 2,
       name: "Cameron Marrs",
       title: "Registered Associate Marriage and Family Therapist",
@@ -125,16 +102,6 @@ If you've been carrying so much for so long, you do not have to do it alone. The
       image: "/images/team/tria.jpeg",
       credentials: "AMFT #153291, APCC #18796"
     },
-    {
-      id: 10,
-      name: "Gity Nematollahi",
-      title: "Registered Associate Marriage and Family Therapist",
-      altText: "Gity Nematollahi, AMFT - Registered Associate Marriage and Family Therapist in Carlsbad",
-      bio: `When you feel overwhelmed, stuck, or disconnected and are seeking more clarity, balance, and connection in your life, this is where our work can begin. If you are navigating anxiety, relationship challenges, life transitions, or the impact of past experiences, while under direct supervision, I offer a warm, compassionate space where you can slow down, feel seen, and better understand yourself. Under direct supervision, I use a holistic, trauma-informed, and mindful approach, I blend reflection with practical tools to help you reconnect with yourself and move forward in a meaningful way. Under direct supervision, I help individuals navigate anxiety, life transitions, relational challenges, and past experiences and trauma. With compassion, curiosity, and a nonjudgmental, safe space, we build insight and emotional awareness to help you move forward with clarity and balance. As a mother, immigrant, and lifelong learner, I know how life's changes and challenges can feel heavy. While under direct supervision, I provide a safe, compassionate, and nonjudgmental space where you can reflect, reconnect with your inner wisdom, and take steps forward in a way that feels authentic to you. I invite you to reach out and start your journey today.`,
-      image: "/images/team/gity.jpeg",
-      credentials: "AMFT 161652",
-      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
-    }
   ];
 
   return (
