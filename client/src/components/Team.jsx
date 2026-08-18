@@ -102,6 +102,54 @@ const Team = () => {
       image: "/images/team/tria.jpeg",
       credentials: "AMFT #153291, APCC #18796"
     },
+    {
+      id: 10,
+      name: "Jordan Murray",
+      title: "Registered Associate Marriage and Family Therapist",
+      altText: "Jordan Murray, AMFT - Registered Associate Marriage and Family Therapist in Carlsbad",
+      bio: `I am an Associate Marriage and Family Therapist. I provide a warm, collaborative space to help you navigate anxiety, depression, trauma, grief, or life transitions. My approach integrates Depth and Archetypal Psychology with insight-oriented therapy and somatic awareness to help you understand emotional patterns and build resilience. I am dedicated to offering compassionate, nonjudgmental support as you work toward your personal goals and a more fulfilling life.\n\nI help adults navigate anxiety, depression, trauma, grief, relationship challenges, life transitions, stress, and self-esteem concerns. Together, we'll build insight, strengthen resilience, and develop practical tools to support meaningful change, healthier relationships, and a greater sense of balance and well-being.\n\nTaking the first step toward therapy isn't always easy. If you're feeling overwhelmed, stuck, or simply ready for change, you don't have to navigate it alone. I provide a supportive, compassionate space where we can work together to help you heal, grow, and move forward. I invite you to reach out when you're ready.`,
+      image: "/images/team/jordan.jpeg",
+      credentials: "AMFT #61295",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 11,
+      name: "Kristen Feldman",
+      title: "Registered Associate Marriage and Family Therapist",
+      altText: "Kristen Feldman, AMFT - Registered Associate Marriage and Family Therapist in Carlsbad",
+      bio: `I am an Associate Marriage and Family Therapist. I have a Master's degree in Marriage and Family Therapy from National University. I also have a second Master's degree in Education with a focus in Higher Education from DePaul University. I completed my clinical internship in Marriage and Family Therapy in 2025, working with a diverse array of clients.\n\nMy goals as a clinician are to meet the client where they are and foster a collaborative therapeutic alliance. Empathy and attunement to the client's needs are critical to positive therapeutic outcomes. I take a holistic approach when conceptualizing a case and developing a treatment plan.\n\nI have worked with clients at all stages of their life and on many different clinical issues including depression, grief, anxiety, career planning and PTSD. If you are seeking meaningful change in your life, I would love to help you on this journey!`,
+      image: "/images/team/kristen.jpeg",
+      credentials: "AMFT #156569",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
+    {
+      id: 12,
+      name: "Desiree Zamora",
+      title: "Registered Associate Professional Clinical Counselor",
+      altText: "Desiree Zamora, APCC - Registered Associate Professional Clinical Counselor in Carlsbad",
+      bio: `I am a Registered Associate Professional Clinical Counselor. I earned my Master's degree in Clinical Counseling from Alliant International University and a Bachelor's degree in Psychological Science from California State University, San Marcos. Life can be overwhelming, and sometimes we all need a space to slow down, take a deep breath, process what we're carrying, and feel supported without judgment. My goal as a therapist is to create that safe space for you. My experience has been rooted in working with children, adolescents, adults, and couples navigating challenges.`,
+      image: "/images/team/desiree.png",
+      credentials: "APCC 22654"
+    },
+    {
+      id: 13,
+      name: "Samantha Prado Del Gado",
+      title: "Registered Associate Professional Clinical Counselor",
+      altText: "Samantha Prado Del Gado, APCC - Bilingual Registered Associate Professional Clinical Counselor in Carlsbad (English/Spanish)",
+      bio: `I am a First Generation Bilingual (Spanish) Associate Professional Clinical Counselor with experience supporting children, teens, adults, couples, and families (ages 6–70). I help clients navigate anxiety, depression, trauma, relationships, grief, ADHD, addiction, life transitions, identity, cultural challenges, and demands of athletic performance. Together, we'll build insight, strengthen resilience, and move toward the life you want.\n\nMy approach is integrative because every person is unique. I tailor therapy to your needs using Internal Family Systems, ACT, DBT, attachment-based principles, Art Therapy, and Recreational Therapy. Together, we'll explore your experiences, build practical skills, and foster confidence, healing, and self-compassion.\n\nI offer tailored support to your unique needs in a therapeutic, nonjudgmental, collaborative, and empowering space. Whether you're working through long-standing trauma, navigating a difficult season of life, strengthening relationships, or seeking a deeper understanding of yourself, I would be honored to support you in your journey.`,
+      image: "/images/team/samantha.jpeg",
+      credentials: "APCC 20037"
+    },
+    {
+      id: 14,
+      name: "Reagan Cable",
+      title: "Registered Associate Marriage and Family Therapist",
+      altText: "Reagan Cable, AMFT - Registered Associate Marriage and Family Therapist in Carlsbad",
+      bio: `As a Registered Associate Marriage and Family Therapist, I offer grounded, trauma‑informed therapy that moves at your pace, helps you make sense of what you've been through, and supports small, realistic changes in daily life.\n\nI offer trauma‑informed, EMDR‑informed therapy for adults navigating trauma, anxiety, identity questions, and life transitions. Together, we slow things down, notice patterns, and gently process what you've been carrying while building practical tools for boundaries, coping, and more authentic relationships.\n\nIt can feel like a big step to reach out and share your story with someone new. If you're feeling unsure, we can move slowly and decide together whether this is a good fit. I'd be honored to learn more about what you're carrying and explore how therapy might support you in this season of your life.`,
+      image: "/images/team/reagan.png",
+      credentials: "AMFT #162120",
+      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
+    },
   ];
 
   return (
