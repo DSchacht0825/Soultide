@@ -39,7 +39,8 @@ const Team = () => {
       altText: "Jessica Anderson, LCSW - Licensed Clinical Social Worker in Carlsbad and San Diego",
       bio: "Hello, I'm Jessica Anderson, a Licensed Clinical Social Worker with a Master's Degree in Child Development from Sarah Lawrence College and a Master's Degree in Clinical Social Work from New York University. Since 2004, I've had the privilege of working in many different settings—community-based organizations, hospitals supporting children and adults, and now private practice. These experiences have given me the opportunity to work with people from all walks of life, each facing unique challenges and strengths.\n\nIn my practice, I approach every individual with curiosity, empathy, and unconditional positive regard. I believe we all have an innate ability to heal, grow, and create change. Sometimes, though, life's stressors—whether loss, trauma, transitions, or biological factors—can make that feel out of reach. My role is to provide support and guidance as you navigate those moments, helping you reconnect with your resilience and sense of self.\n\nTherapy, to me, is a space for exploration and growth—a place to make sense of your experiences and learn new ways of being. I understand that being human can be complicated: we're constantly figuring out how to live in a world that's both beautiful and unpredictable, how to love deeply, face pain, and keep moving forward.\n\nI work with children, adults, individuals, and couples. My areas of focus include depression, anxiety, trauma, grief and loss, as well as supporting those in the medical field, military personnel, and individuals or couples navigating the perinatal and postpartum experience.",
       image: "/images/team/Jessica.jpg",
-      credentials: "LCSW"
+      credentials: "LCSW",
+      supervisor: "Supervised by Kyle Cablay, AMFT #135911"
     },
     {
       id: 2,
@@ -129,7 +130,8 @@ const Team = () => {
       altText: "Desiree Zamora, APCC - Registered Associate Professional Clinical Counselor in Carlsbad",
       bio: `I am a Registered Associate Professional Clinical Counselor. I earned my Master's degree in Clinical Counseling from Alliant International University and a Bachelor's degree in Psychological Science from California State University, San Marcos. Life can be overwhelming, and sometimes we all need a space to slow down, take a deep breath, process what we're carrying, and feel supported without judgment. My goal as a therapist is to create that safe space for you. My experience has been rooted in working with children, adolescents, adults, and couples navigating challenges.`,
       image: "/images/team/desiree.png",
-      credentials: "APCC 22654"
+      credentials: "APCC 22654",
+      supervisor: "Supervised by Kyle Cablay, AMFT #135911"
     },
     {
       id: 13,
@@ -138,7 +140,8 @@ const Team = () => {
       altText: "Samantha Prado Del Gado, APCC - Bilingual Registered Associate Professional Clinical Counselor in Carlsbad (English/Spanish)",
       bio: `I am a First Generation Bilingual (Spanish) Associate Professional Clinical Counselor with experience supporting children, teens, adults, couples, and families (ages 6–70). I help clients navigate anxiety, depression, trauma, relationships, grief, ADHD, addiction, life transitions, identity, cultural challenges, and demands of athletic performance. Together, we'll build insight, strengthen resilience, and move toward the life you want.\n\nMy approach is integrative because every person is unique. I tailor therapy to your needs using Internal Family Systems, ACT, DBT, attachment-based principles, Art Therapy, and Recreational Therapy. Together, we'll explore your experiences, build practical skills, and foster confidence, healing, and self-compassion.\n\nI offer tailored support to your unique needs in a therapeutic, nonjudgmental, collaborative, and empowering space. Whether you're working through long-standing trauma, navigating a difficult season of life, strengthening relationships, or seeking a deeper understanding of yourself, I would be honored to support you in your journey.`,
       image: "/images/team/samantha.jpeg",
-      credentials: "APCC 20037"
+      credentials: "APCC 20037",
+      supervisor: "Supervised by Kyle Cablay, AMFT #135911"
     },
     {
       id: 14,
