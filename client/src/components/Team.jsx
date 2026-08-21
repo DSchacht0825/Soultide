@@ -39,8 +39,7 @@ const Team = () => {
       altText: "Jessica Anderson, LCSW - Licensed Clinical Social Worker in Carlsbad and San Diego",
       bio: "Hello, I'm Jessica Anderson, a Licensed Clinical Social Worker with a Master's Degree in Child Development from Sarah Lawrence College and a Master's Degree in Clinical Social Work from New York University. Since 2004, I've had the privilege of working in many different settings—community-based organizations, hospitals supporting children and adults, and now private practice. These experiences have given me the opportunity to work with people from all walks of life, each facing unique challenges and strengths.\n\nIn my practice, I approach every individual with curiosity, empathy, and unconditional positive regard. I believe we all have an innate ability to heal, grow, and create change. Sometimes, though, life's stressors—whether loss, trauma, transitions, or biological factors—can make that feel out of reach. My role is to provide support and guidance as you navigate those moments, helping you reconnect with your resilience and sense of self.\n\nTherapy, to me, is a space for exploration and growth—a place to make sense of your experiences and learn new ways of being. I understand that being human can be complicated: we're constantly figuring out how to live in a world that's both beautiful and unpredictable, how to love deeply, face pain, and keep moving forward.\n\nI work with children, adults, individuals, and couples. My areas of focus include depression, anxiety, trauma, grief and loss, as well as supporting those in the medical field, military personnel, and individuals or couples navigating the perinatal and postpartum experience.",
       image: "/images/team/Jessica.jpg",
-      credentials: "LCSW",
-      supervisor: "Supervised by Kyle Cablay, AMFT #135911"
+      credentials: "LCSW"
     },
     {
       id: 2,
@@ -131,7 +130,7 @@ const Team = () => {
       bio: `I am a Registered Associate Professional Clinical Counselor. I earned my Master's degree in Clinical Counseling from Alliant International University and a Bachelor's degree in Psychological Science from California State University, San Marcos. Life can be overwhelming, and sometimes we all need a space to slow down, take a deep breath, process what we're carrying, and feel supported without judgment. My goal as a therapist is to create that safe space for you. My experience has been rooted in working with children, adolescents, adults, and couples navigating challenges.`,
       image: "/images/team/desiree.png",
       credentials: "APCC 22654",
-      supervisor: "Supervised by Kyle Cablay, AMFT #135911"
+      supervisor: "Supervised by Jessica Anderson, LCSW"
     },
     {
       id: 13,
