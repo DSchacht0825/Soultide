@@ -42,6 +42,15 @@ const Team = () => {
       credentials: "LCSW #61295"
     },
     {
+      id: 7,
+      name: "Blanca Iniguez Valdivia",
+      title: "Licensed Clinical Social Worker",
+      altText: "Blanca Iniguez Valdivia, LCSW - Bilingual Licensed Clinical Social Worker in Carlsbad (English/Spanish)",
+      bio: `Hello, my name is Blanca, I am a Licensed Clinical Social Worker with a Master's in Social Work from Boston University. My counseling style is warm, compassionate, and non-judgmental. I strive to meet you where you are, recognizing that you are the expert in your own life. My role is to support you, help you explore what may be getting in the way, and guide you toward living your fullest potential. I believe therapy should be a safe, supportive space where you can heal, process past experiences, and work toward your goals. I honor your pace and will work collaboratively with you to ensure you feel heard, respected, and understood. I tailor my approach based on your unique needs and goals. Whether you are looking to build coping skills for anxiety and depression or process past experiences and inner child work, we will find what works best for you. I have experience working with children, adolescents, and adults addressing trauma, anxiety, depression, intimate partner violence, sexual assault, suicidality, and other mental health concerns. I utilize evidence-based approaches such as Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT (TF-CBT), Dialectical Behavior Therapy (DBT), and Motivational Interviewing (MI). I also emphasize grounding and regulation skills to help calm the mind and body during times of distress. As a first-generation Latina, I also offer services in Spanish for clients who prefer it. Como Latina de primera generación, también ofrezco servicios en español para quienes lo prefieran.`,
+      image: "/images/team/blanca.jpeg",
+      credentials: "LCSW #139444"
+    },
+    {
       id: 2,
       name: "Cameron Marrs",
       title: "Registered Associate Marriage and Family Therapist",
@@ -76,16 +85,6 @@ const Team = () => {
       image: "/images/team/maren.jpg",
       credentials: "APCC #21533",
       supervisor: "Supervised by Jessica Anderson, LCSW #61295"
-    },
-    {
-      id: 7,
-      name: "Blanca Iniguez Valdivia",
-      title: "Registered Associate Clinical Social Worker",
-      altText: "Blanca Iniguez Valdivia, ASW - Bilingual Registered Associate Clinical Social Worker in Carlsbad (English/Spanish)",
-      bio: `Hello, my name is Blanca, I am a Registered Associate Clinical Social Worker with a Master's in Social Work from Boston University. While under direct supervision, my counseling style is warm, compassionate, and non-judgmental. I strive to meet you where you are, recognizing that you are the expert in your own life. My role is to support you, help you explore what may be getting in the way, and guide you toward living your fullest potential. While under direct supervision from my supervisor, I believe therapy should be a safe, supportive space where you can heal, process past experiences, and work toward your goals. I honor your pace and will work collaboratively with you to ensure you feel heard, respected, and understood. While under direct supervision, I tailor my approach based on your unique needs and goals. Whether you are looking to build coping skills for anxiety and depression or process past experiences and inner child work, we will find what works best for you. I have experience working with children, adolescents, and adults addressing trauma, anxiety, depression, intimate partner violence, sexual assault, suicidality, and other mental health concerns. While under direct supervision, I utilize evidence-based approaches such as Cognitive Behavioral Therapy (CBT), Trauma-Focused CBT (TF-CBT), Dialectical Behavior Therapy (DBT), and Motivational Interviewing (MI). I also emphasize grounding and regulation skills to help calm the mind and body during times of distress. As a first-generation Latina, I also offer services in Spanish for clients who prefer it, while under direct supervision. Como Latina de primera generación, también ofrezco servicios en español para quienes lo prefieran.`,
-      image: "/images/team/blanca.jpeg",
-      credentials: "ASW 119060",
-      supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     },
     {
       id: 9,
