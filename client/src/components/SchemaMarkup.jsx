@@ -28,6 +28,22 @@ const SchemaMarkup = () => {
           "addressRegion": "CA",
           "postalCode": "92025",
           "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "169 Saxony Road, Suite 205",
+          "addressLocality": "Encinitas",
+          "addressRegion": "CA",
+          "postalCode": "92024",
+          "addressCountry": "US"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "3838 Camino Del Rio N, Suite 225",
+          "addressLocality": "San Diego",
+          "addressRegion": "CA",
+          "postalCode": "92108",
+          "addressCountry": "US"
         }
       ],
       "geo": {
@@ -43,6 +59,10 @@ const SchemaMarkup = () => {
         {
           "@type": "City",
           "name": "Escondido"
+        },
+        {
+          "@type": "City",
+          "name": "Encinitas"
         },
         {
           "@type": "City",
@@ -130,6 +150,7 @@ const SchemaMarkup = () => {
       "areaServed": [
         "Carlsbad, CA",
         "Escondido, CA",
+        "Encinitas, CA",
         "San Diego, CA",
         "San Diego County, CA",
         "California"
@@ -160,6 +181,34 @@ const SchemaMarkup = () => {
               "addressLocality": "Escondido",
               "addressRegion": "CA",
               "postalCode": "92025"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "In-Person Therapy",
+          "serviceLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "169 Saxony Road, Suite 205",
+              "addressLocality": "Encinitas",
+              "addressRegion": "CA",
+              "postalCode": "92024"
+            }
+          }
+        },
+        {
+          "@type": "ServiceChannel",
+          "serviceType": "In-Person Therapy",
+          "serviceLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3838 Camino Del Rio N, Suite 225",
+              "addressLocality": "San Diego",
+              "addressRegion": "CA",
+              "postalCode": "92108"
             }
           }
         },
@@ -197,7 +246,7 @@ const SchemaMarkup = () => {
           "name": "Where is Soul Tide Therapy located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Soul Tide Therapy has two locations: 3257 Camino De Los Coches, Carlsbad, CA 92009 and 925 E Pennsylvania Ave, Suite A, Escondido, CA 92025. We serve clients throughout Carlsbad, Escondido, and San Diego County."
+            "text": "Soul Tide Therapy has four locations: 3257 Camino De Los Coches, Carlsbad, CA 92009; 925 E Pennsylvania Ave, Suite A, Escondido, CA 92025; 169 Saxony Road, Suite 205, Encinitas, CA 92024; and 3838 Camino Del Rio N, Suite 225, San Diego, CA 92108. We serve clients throughout Carlsbad, Escondido, Encinitas, San Diego, and San Diego County."
           }
         },
         {

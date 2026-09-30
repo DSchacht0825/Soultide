@@ -77,16 +77,6 @@ const Team = () => {
       supervisor: "Supervised by Dr. Trevor Olson, PsyD, Licensed Psychologist, PSY28474"
     },
     {
-      id: 6,
-      name: "Maren Gregg",
-      title: "Registered Associate Professional Clinical Counselor",
-      altText: "Maren Gregg, APCC - Registered Associate Professional Clinical Counselor in Carlsbad",
-      bio: `Maren is a Registered Associate Professional Clinical Counselor (APCC) in California. She earned her Master's degree in Clinical Counseling from Alliant International University and her Bachelor's degree in Psychology from the University of Alabama. While under direct supervision, Maren believes therapy is most effective when it is a collaborative and thoughtful process, grounded in compassion and care. Maren supports adults navigating life transitions, emotional challenges, relationship concerns, and questions around identity or direction. While under direct supervision, her approach focuses on helping clients explore their experiences and reflect on their patterns while developing helpful strategies to navigate challenges. Throughout the process, she remains curious about each client's perspective and works to create a safe, supportive space for understanding and growth. While under direct supervision and during her student training, Maren provided individual therapy, facilitated mental health groups, and received training in neurofeedback, which informed her understanding of the mind-body connection. She has experience working in outpatient, residential, and inpatient settings, supporting adults with a range of mental health challenges. Maren is committed to providing trauma-informed, individualized care that honors each client's unique needs and values. She receives regular clinical supervision and engages in ongoing professional development to ensure her work remains ethical, evidence-based, and thoughtfully tailored.`,
-      image: "/images/team/maren.jpg",
-      credentials: "APCC #21533",
-      supervisor: "Supervised by Jessica Anderson, LCSW #61295"
-    },
-    {
       id: 9,
       name: "Tria Ismay",
       title: (
